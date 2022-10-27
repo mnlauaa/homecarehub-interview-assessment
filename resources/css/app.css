@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+    width: 8rem;
+}
+
+@media (min-width: 768px) {
+    .container,
+    .container-md,
+    .container-sm {
+        max-width: 700px !important;
+    }
+}
+
+.back-link {
+    padding-left: 0.75rem;
+}
+
+@media (min-width: 768px) {
+    .back-link {
+        padding-left: 2rem;
+    }
+}
+
+.error {
+    color: red;
+}
